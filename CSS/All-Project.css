@@ -1,0 +1,37 @@
+
+/*style for all project*/
+
+@font-face {
+    font-family: irsans;
+    src: url(../Font/irsans.woff);
+  }
+/* start variable*/
+:root{
+    --color-object : rgb(255, 196, 81);
+    --color-title : #151515;
+    --color-paragraph:#848484;
+  
+}
+
+  /* end variable*/ 
+
+
+body{
+
+    direction: rtl;
+    font-family: irsans;
+    margin: 0px;
+
+}
+
+.bold-text{
+    color: var(--color-title);
+    font-weight: 700;
+    font-size: 36px;
+}
+
+h1,h2,h3,h4,h5,h6{
+  font-family: irsans;
+}
+
+/*style for all project*/
